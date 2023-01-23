@@ -2,11 +2,32 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: rgb(20, 20, 20);
+    color: #81ecec;
+    text-align: center;
+}
+
 header {
     text-align: center;
+    width: fit-content;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin:auto;
+    background-color: #0984e3;
+    line-height: 1em;
 }
 
 #name {
     font-weight: bolder;
     font-size: 3em;
+}
+
+#name h1 {
+    padding:15px;
+}
+
+#location{
+    font-size: 2em;
 }

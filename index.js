@@ -14,11 +14,11 @@ const writeHtml = function (user, loc, blurb, linked, git) {
     </head>
     <body>
         <header>
-            <div>
-                <h1 id="name">${user}</h1>
+            <div id="name">
+                <h1>${user}</h1>
             </div>
-            <div>
-                <h2 id="location">${loc}</h2>
+            <div id="location">
+                <h2>${loc}</h2id=>
             </div>
         </header>
         <main>
